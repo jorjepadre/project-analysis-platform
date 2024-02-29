@@ -60,24 +60,32 @@ class DeBankAdapter {
     return rawData;
   }
 
-  async getUserProfile(address: string) {
+  async getUserProfile(address: string, refresh = false) {
     const responses: string[] = [];
     const page = await this.browser.newPage();
     page.on('response', async (response) => {
-      const monitorList = ['https://api.debank.com/portfolio/project_list'];
-      const isRelevant = monitorList.some((str) => response.url().startsWith(str));
+      const isRelevant = response.url().startsWith('https://api.debank.com/portfolio/');
       if (!isRelevant) return;
 
       try {
-        responses.push(await response.text());
+        responses.push(JSON.stringify(JSON.parse(await response.text())));
+        console.debug(response.url());
       } catch (e) {
         console.warn(e);
       }
     });
-    const promise = page.waitForResponse('https://festats.debank.com/mainsite/portfolioLoadTime*');
+    const portfolioLoadPromise = page.waitForResponse('https://festats.debank.com/mainsite/portfolioLoadTime*');
     await page.goto(`https://debank.com/profile/${address}`);
-    await promise;
+    await portfolioLoadPromise;
     await writeFile('.out/responses.json', JSON.stringify(JSON.parse(responses.toString()), null, 4));
+
+    if (!refresh) return;
+
+    const realtimeLoadPromise = page.waitForResponse('https://festats.debank.com/mainsite/realtimePortfoliosLoadTime*');
+    const refreshButton = page.locator('span[class^=UpdateButton_refresh] > svg');
+    await refreshButton.click();
+    await realtimeLoadPromise;
+    await writeFile('.out/all_responses.txt', responses.toString());
   }
 
   clearCache() {}
@@ -85,7 +93,7 @@ class DeBankAdapter {
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  const data = await adapter.getUserProfile('0xd77dbe428f22cf47f019ef826a1e365df3cb5494');
+  const data = await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
   await adapter.destroy();
 }
 
