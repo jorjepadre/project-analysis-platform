@@ -1,4 +1,5 @@
 import { Browser, Page, chromium } from 'playwright';
+import { writeFile } from 'fs/promises';
 
 class DeBankAdapter {
   private static adapter: DeBankAdapter | null = null;
@@ -16,6 +17,10 @@ class DeBankAdapter {
     return adapter;
   }
 
+  async destroy() {
+    await this.browser.close();
+  }
+
   async fetchByBrowser(...params: Parameters<Page['goto']>) {
     console.info(`fetchByBrowser params=${params.toString()}`);
     const page = await this.browser.newPage();
@@ -27,19 +32,19 @@ class DeBankAdapter {
     return res.json();
   }
 
-  async getProtocols() {
+  async getProtocols(name: string = '') {
     const baseUrl = 'https://api.debank.com/protocol/list';
     const params = {
       start: '0',
       limit: '10000',
       chain_id: '',
       pool_name: '',
-      q: '',
+      q: name,
       order_by: '-deposit_usd_value',
     };
 
-    const rawProtocols = await this.fetchByBrowser(baseUrl + '?' + new URLSearchParams(params).toString());
-    console.log(rawProtocols);
+    const rawData = await this.fetchByBrowser(baseUrl + '?' + new URLSearchParams(params).toString());
+    return rawData;
   }
 
   clearCache() {}
@@ -47,7 +52,9 @@ class DeBankAdapter {
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  await adapter.getProtocols();
+  const data = await adapter.getProtocols('wault');
+  await writeFile('.out/debank.json', JSON.stringify(data, null, 4));
+  await adapter.destroy();
 }
 
 main();

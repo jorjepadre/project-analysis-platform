@@ -1,0 +1,233 @@
+{
+    "_cache_seconds": 0,
+    "_seconds": 1.8956339359283447,
+    "_use_cache": false,
+    "data": {
+        "protocols": [
+            {
+                "chain": "bsc",
+                "dao_id": null,
+                "has_supported_portfolio": true,
+                "id": "bsc_wault",
+                "is_tvl": true,
+                "is_visible_in_defi": null,
+                "logo_url": "https://static.debank.com/image/project/logo_url/wault/0690711fd3afccb890b1e8d982764f32.png",
+                "name": "Wault",
+                "platform_token_chain": "bsc",
+                "platform_token_id": "0xb64e638e60d154b43f660a6bf8fd8a3b249a6a21",
+                "platform_token_logo": "https://static.debank.com/image/bsc_token/logo_url/0xb64e638e60d154b43f660a6bf8fd8a3b249a6a21/c047a99b10aa5ec24732dd5a3a2e2fe4.png",
+                "platform_token_symbol": "WAULTx",
+                "site_url": "https://wault.finance",
+                "stats": {
+                    "chain_id": "bsc",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 268.76895351150444,
+                            "id": "bnb",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/bnb/9784283a36f23a58982fc964574ea530.png",
+                            "price": 410.5,
+                            "rate": 0.3298712313886014,
+                            "symbol": "BNB",
+                            "usd_value": 110329.65541647255
+                        },
+                        {
+                            "amount": 67446.80934541051,
+                            "id": "busd",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/busd/a57860ceb2c054b0222dda257addf86a.png",
+                            "price": 1.001735036883113,
+                            "rate": 0.20200701607048663,
+                            "symbol": "BUSD",
+                            "usd_value": 67563.8320472731
+                        },
+                        {
+                            "amount": 30953.680863994676,
+                            "id": "usdt",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+                            "price": 1.000085,
+                            "rate": 0.09255532155900316,
+                            "symbol": "USDT",
+                            "usd_value": 30956.31192686811
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 1877273340.1937032,
+                            "chain_id": "bsc",
+                            "id": "0xa9c41a46a6b3531d28d5c32f6633dd2ff05dfb90",
+                            "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0xa9c41a46a6b3531d28d5c32f6633dd2ff05dfb90/644a9551df1e326ff42e8b3a8c574b99.png",
+                            "price": 0.000009935969927367332,
+                            "rate": 0.05576862808001942,
+                            "symbol": "WEX",
+                            "usd_value": 18652.531453613057
+                        },
+                        {
+                            "amount": 2135456.4407476336,
+                            "chain_id": "bsc",
+                            "id": "0x3920123482070c1a2dff73aad695c60e7c6f6862",
+                            "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0x3920123482070c1a2dff73aad695c60e7c6f6862/545c92d92f23f7ece3200df3b80f24c2.png",
+                            "price": 0.0054497500558795126,
+                            "rate": 0.034795211563470964,
+                            "symbol": "EULER",
+                            "usd_value": 11637.70385729268
+                        },
+                        {
+                            "amount": 631.5586997677341,
+                            "chain_id": "bsc",
+                            "id": "0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0",
+                            "logo_url": "https://static.debank.com/image/bsc_token/logo_url/0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0/7146b1817218ae98a7adb7fb017c7cab.png",
+                            "price": 12.79349351627759,
+                            "rate": 0.024157670600841556,
+                            "symbol": "ORAI",
+                            "usd_value": 8079.84213062721
+                        }
+                    ],
+                    "deposit_usd_value": 334462.7991717698,
+                    "deposit_user_count": 20678,
+                    "deposit_valuable_user_count": 259,
+                    "id": "bsc_wault",
+                    "pool_stats": [
+                        {
+                            "count": 68,
+                            "name": "Farming",
+                            "rate": 0.7,
+                            "usd_value": 234708.3119489487
+                        },
+                        {
+                            "count": 214,
+                            "name": "Liquidity Pool",
+                            "rate": 0.95,
+                            "usd_value": 318732.4361699529
+                        },
+                        {
+                            "count": 33,
+                            "name": "Staked",
+                            "rate": 0.01,
+                            "usd_value": 2727.5717761967426
+                        },
+                        {
+                            "count": 3,
+                            "name": "Locked",
+                            "rate": 0.02,
+                            "usd_value": 7687.093698692104
+                        }
+                    ]
+                },
+                "tag_ids": [
+                    "dex",
+                    "amm"
+                ],
+                "tvl": 336518.53250052856
+            },
+            {
+                "chain": "matic",
+                "dao_id": null,
+                "has_supported_portfolio": true,
+                "id": "matic_wault",
+                "is_tvl": true,
+                "is_visible_in_defi": null,
+                "logo_url": "https://static.debank.com/image/project/logo_url/matic_wault/159370b3b229aa64a2ed807816bcd600.png",
+                "name": "Wault",
+                "platform_token_chain": "matic",
+                "platform_token_id": "0x4c4bf319237d98a30a929a96112effa8da3510eb",
+                "platform_token_logo": "https://static.debank.com/image/matic_token/logo_url/0x4c4bf319237d98a30a929a96112effa8da3510eb/7870a86c215721afae4d72f57ad5f7c7.png",
+                "platform_token_symbol": "WEXpoly",
+                "site_url": "https://app.wault.finance/polygon",
+                "stats": {
+                    "chain_id": "matic",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 56810.20340861707,
+                            "id": "usdc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+                            "price": 1,
+                            "rate": 0.32404133056688517,
+                            "symbol": "USDC",
+                            "usd_value": 56810.20340861707
+                        },
+                        {
+                            "amount": 44567.392862603934,
+                            "id": "matic",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/matic/6f5a6b6f0732a7a235131bd7804d357c.png",
+                            "price": 1.04441,
+                            "rate": 0.2654986475360819,
+                            "symbol": "MATIC",
+                            "usd_value": 46546.63077963218
+                        },
+                        {
+                            "amount": 5.267465591811987,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3446.43,
+                            "rate": 0.10354883852851368,
+                            "symbol": "ETH",
+                            "usd_value": 18153.951439588585
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 3369277629.34971,
+                            "chain_id": "matic",
+                            "id": "0x4c4bf319237d98a30a929a96112effa8da3510eb",
+                            "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x4c4bf319237d98a30a929a96112effa8da3510eb/7870a86c215721afae4d72f57ad5f7c7.png",
+                            "price": 0.0000021857536327480036,
+                            "rate": 0.04200607174682877,
+                            "symbol": "WEXpoly",
+                            "usd_value": 7364.41081808771
+                        },
+                        {
+                            "amount": 404994270393.88135,
+                            "chain_id": "matic",
+                            "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
+                            "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x8a953cfe442c5e8855cc6c61b1293fa648bae472/81bc0c5cdc10300c692d5246c913129a.png",
+                            "price": 8.140635400915008e-9,
+                            "rate": 0.018805342424112095,
+                            "symbol": "PolyDoge",
+                            "usd_value": 3296.9106947361756
+                        },
+                        {
+                            "amount": 12193.400825359116,
+                            "chain_id": "matic",
+                            "id": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+                            "logo_url": "https://static.debank.com/image/matic_token/logo_url/0x3a3df212b7aa91aa0402b9035b098891d276572b/6ba818878e589c74d4b43c0c3a954683.png",
+                            "price": 0.19667813432228448,
+                            "rate": 0.013679020259403886,
+                            "symbol": "FISH",
+                            "usd_value": 2398.1753253754346
+                        }
+                    ],
+                    "deposit_usd_value": 175317.76983273355,
+                    "deposit_user_count": 6731,
+                    "deposit_valuable_user_count": 131,
+                    "id": "matic_wault",
+                    "pool_stats": [
+                        {
+                            "count": 31,
+                            "name": "Farming",
+                            "rate": 0.51,
+                            "usd_value": 88590.42732255175
+                        },
+                        {
+                            "count": 224,
+                            "name": "Liquidity Pool",
+                            "rate": 1,
+                            "usd_value": 174878.38771625276
+                        },
+                        {
+                            "count": 7,
+                            "name": "Staked",
+                            "rate": 0.01,
+                            "usd_value": 896.3481884170477
+                        }
+                    ]
+                },
+                "tag_ids": [
+                    "dex",
+                    "amm"
+                ],
+                "tvl": 175772.23866552472
+            }
+        ],
+        "total_count": 2
+    },
+    "error_code": 0
+}
