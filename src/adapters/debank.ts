@@ -47,12 +47,25 @@ class DeBankAdapter {
     return rawData;
   }
 
+  async getPools(id: string, start = 0) {
+    const baseUrl = 'https://api.debank.com/protocol/pools';
+    const params = {
+      start: start.toString(),
+      limit: '20',
+      name: '',
+      id,
+    };
+
+    const rawData = await this.fetchByBrowser(baseUrl + '?' + new URLSearchParams(params).toString());
+    return rawData;
+  }
+
   clearCache() {}
 }
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  const data = await adapter.getProtocols('wault');
+  const data = await adapter.getPools('bsc_wault');
   await writeFile('.out/debank.json', JSON.stringify(data, null, 4));
   await adapter.destroy();
 }
