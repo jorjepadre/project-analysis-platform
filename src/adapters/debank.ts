@@ -60,13 +60,32 @@ class DeBankAdapter {
     return rawData;
   }
 
+  async getUserProfile(address: string) {
+    const responses: string[] = [];
+    const page = await this.browser.newPage();
+    page.on('response', async (response) => {
+      const monitorList = ['https://api.debank.com/portfolio/project_list'];
+      const isRelevant = monitorList.some((str) => response.url().startsWith(str));
+      if (!isRelevant) return;
+
+      try {
+        responses.push(await response.text());
+      } catch (e) {
+        console.warn(e);
+      }
+    });
+    const promise = page.waitForResponse('https://festats.debank.com/mainsite/portfolioLoadTime*');
+    await page.goto(`https://debank.com/profile/${address}`);
+    await promise;
+    await writeFile('.out/responses.json', JSON.stringify(JSON.parse(responses.toString()), null, 4));
+  }
+
   clearCache() {}
 }
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  const data = await adapter.getPools('bsc_wault');
-  await writeFile('.out/debank.json', JSON.stringify(data, null, 4));
+  const data = await adapter.getUserProfile('0xd77dbe428f22cf47f019ef826a1e365df3cb5494');
   await adapter.destroy();
 }
 
