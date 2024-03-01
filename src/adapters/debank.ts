@@ -1,4 +1,6 @@
+import { sql } from 'drizzle-orm';
 import { Browser, Page, chromium } from 'playwright';
+import { db, debankProtocols } from '@/db';
 import { writeFile } from 'fs/promises';
 
 class DeBankAdapter {
@@ -44,6 +46,28 @@ class DeBankAdapter {
     };
 
     const rawData = await this.fetchByBrowser(baseUrl + '?' + new URLSearchParams(params).toString());
+    const data = await db
+      .insert(debankProtocols)
+      .values(
+        rawData.data.protocols.map((p: any) => ({
+          id: p.id,
+          name: p.name,
+          chain: p.chain,
+          logoUrl: p.logo_url,
+          siteUrl: p.site_url,
+          tvl: p.tvl,
+          userCount: p.stats?.deposit_user_count ?? null,
+          valuableUserCount: p.stats?.deposit_valuable_user_count ?? null,
+        })),
+      )
+      .onDuplicateKeyUpdate({
+        set: {
+          tvl: sql`values(tvl)`,
+          userCount: sql`values(user_count)`,
+          valuableUserCount: sql`values(valuable_user_count)`,
+        },
+      });
+
     return rawData;
   }
 
