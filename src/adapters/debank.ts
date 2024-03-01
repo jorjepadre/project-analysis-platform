@@ -1,6 +1,7 @@
 import { sql } from 'drizzle-orm';
+import { snakeCase } from 'lodash';
 import { Browser, Page, chromium } from 'playwright';
-import { db, debankProtocols } from '@/db';
+import { db, debankPools, debankProtocols } from '@/db';
 import { writeFile } from 'fs/promises';
 
 class DeBankAdapter {
@@ -81,6 +82,28 @@ class DeBankAdapter {
     };
 
     const rawData = await this.fetchByBrowser(baseUrl + '?' + new URLSearchParams(params).toString());
+    const data = await db
+      .insert(debankPools)
+      .values(
+        rawData.data.pools.map((p: any) => ({
+          chain: p.chain,
+          id: p.id,
+          controller: p.controller,
+          index: p.index,
+          investmentType: snakeCase(p.name),
+          projectId: p.project_id,
+          adapterId: p.adapter_id,
+        })),
+      )
+      .onDuplicateKeyUpdate({
+        set: {
+          chain: sql`chain`,
+          id: sql`id`,
+        },
+      });
+
+    console.log({ data });
+
     return rawData;
   }
 
@@ -118,8 +141,8 @@ class DeBankAdapter {
 async function main() {
   const adapter = await DeBankAdapter.init();
   // const data = await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
-  const data = await adapter.getProtocols();
-  await writeFile('.out/protocols.json', JSON.stringify(data, null, 4));
+  const data = await adapter.getPools('arb_sushiswap');
+  await writeFile('.out/pools.json', JSON.stringify(data, null, 4));
   await adapter.destroy();
 }
 

@@ -1,0 +1,870 @@
+{
+    "_cache_seconds": 600,
+    "_seconds": 0.00923466682434082,
+    "_use_cache": true,
+    "data": {
+        "pools": [
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0xb7e50106a5bd3cf21af210a755f9c8740890a8c9",
+                "id": "0xb7e50106a5bd3cf21af210a755f9c8740890a8c9",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 1870.1510950779812,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.4985876328222346,
+                            "symbol": "ETH",
+                            "usd_value": 6307439.896858556
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 5152138.8096141815,
+                            "chain_id": "arb",
+                            "id": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x539bde0d7dbd336b79148aa742883198bbf60342/68a7b26beb3b26432f8603ae00f9f718.png",
+                            "price": 1.2311730635419806,
+                            "rate": 0.501412367177771,
+                            "symbol": "MAGIC",
+                            "usd_value": 6343174.522026225
+                        }
+                    ],
+                    "deposit_usd_value": 12650614.41888471,
+                    "deposit_user_count": 3130,
+                    "deposit_valuable_user_count": 137,
+                    "id": "b9ae41ece4a4d9a96cff4e9c4550dd24",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0xb7e50106a5bd3cf21af210a755f9c8740890a8c9",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1634337274
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:13",
+                "index": "13",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 1382.1977755609976,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.48516797479525803,
+                            "symbol": "ETH",
+                            "usd_value": 4661724.615656821
+                        },
+                        {
+                            "amount": 5412.427015342956,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.0008570728079334878,
+                            "symbol": "SUSHI",
+                            "usd_value": 8235.163105808322
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 4011227.9105096,
+                            "chain_id": "arb",
+                            "id": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x539bde0d7dbd336b79148aa742883198bbf60342/68a7b26beb3b26432f8603ae00f9f718.png",
+                            "price": 1.2311730635419806,
+                            "rate": 0.5139749523968079,
+                            "symbol": "MAGIC",
+                            "usd_value": 4938515.755147202
+                        }
+                    ],
+                    "deposit_usd_value": 9608475.533909837,
+                    "deposit_user_count": 2275,
+                    "deposit_valuable_user_count": 359,
+                    "id": "ff699097536bfdd6e888e87ff92828d3",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:13",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x905dfcd5649217c42684f23958568e533c711aa3",
+                "id": "0x905dfcd5649217c42684f23958568e533c711aa3",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 2159648.0234204237,
+                            "id": "usdc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+                            "price": 1,
+                            "rate": 0.504772460086868,
+                            "symbol": "USDC",
+                            "usd_value": 2159648.0234204237
+                        },
+                        {
+                            "amount": 628.2256829274282,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.49522753991314555,
+                            "symbol": "ETH",
+                            "usd_value": 2118810.478552508
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 4278458.501972874,
+                    "deposit_user_count": 39473,
+                    "deposit_valuable_user_count": 232,
+                    "id": "d707414e9a738031a33d333e9087f8b8",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x905dfcd5649217c42684f23958568e533c711aa3",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630448229
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x788618b3e713960a4ded8ed65b3e836c92bb8503",
+                "id": "0x788618b3e713960a4ded8ed65b3e836c92bb8503",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 20662305.03228683,
+                            "chain_id": "arb",
+                            "id": "0x9f6abbf0ba6b5bfa27f4deb6597cc6ec20573fda",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x9f6abbf0ba6b5bfa27f4deb6597cc6ec20573fda/f610cb2893844f8b6c22656021e9d134.png",
+                            "price": 0.06351981042124367,
+                            "rate": 1,
+                            "symbol": "FRM",
+                            "usd_value": 1312465.6985167689
+                        }
+                    ],
+                    "deposit_usd_value": 1312465.6985167689,
+                    "deposit_user_count": 2,
+                    "deposit_valuable_user_count": 1,
+                    "id": "66e0b377acfefe5c3415b5dc084e1cce",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x788618b3e713960a4ded8ed65b3e836c92bb8503",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1677906247
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x0c1cf6883efa1b496b01f654e247b9b419873054",
+                "id": "0x0c1cf6883efa1b496b01f654e247b9b419873054",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 176.5042883927733,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.5011014048972957,
+                            "symbol": "ETH",
+                            "usd_value": 595294.2484194227
+                        },
+                        {
+                            "amount": 10829.424042800283,
+                            "id": "dopex",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81/19a73b131b94cc91d3ebe7b27c141387.png",
+                            "price": 54.72842974417632,
+                            "rate": 0.4988985951027021,
+                            "symbol": "DPX",
+                            "usd_value": 592677.3728962892
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 1187971.6213157144,
+                    "deposit_user_count": 31252,
+                    "deposit_valuable_user_count": 57,
+                    "id": "c59461c089a281e38cb458c981da1688",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x0c1cf6883efa1b496b01f654e247b9b419873054",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1633729682
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x0a4f9962e24893a4a7567e52c1ce37d5482365de",
+                "id": "0x0a4f9962e24893a4a7567e52c1ce37d5482365de",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 551875.6570919976,
+                            "id": "usdt",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+                            "price": 1.000245,
+                            "rate": 0.5007997632709215,
+                            "symbol": "USDT",
+                            "usd_value": 552010.8666279851
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 94656.43858876996,
+                            "chain_id": "arb",
+                            "id": "0x73db621cc8f0a767bed0e5c0a2920f480d77b765",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x73db621cc8f0a767bed0e5c0a2920f480d77b765/2dbd3c34099ef237f8bdf2528d79d505.png",
+                            "price": 5.813104558748172,
+                            "rate": 0.49920023672907865,
+                            "symbol": "GTA",
+                            "usd_value": 550247.774675245
+                        }
+                    ],
+                    "deposit_usd_value": 1102258.64130323,
+                    "deposit_user_count": 2,
+                    "deposit_valuable_user_count": 2,
+                    "id": "1667cb7e8999486493301f93a00c57d9",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x0a4f9962e24893a4a7567e52c1ce37d5482365de",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1705524353
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:0",
+                "index": "0",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 511916.3197751731,
+                            "id": "usdc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+                            "price": 1,
+                            "rate": 0.49689317786435455,
+                            "symbol": "USDC",
+                            "usd_value": 511916.3197751731
+                        },
+                        {
+                            "amount": 148.1767675960817,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.48508807754379524,
+                            "symbol": "ETH",
+                            "usd_value": 499754.3023036288
+                        },
+                        {
+                            "amount": 12200.575537302484,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.018018744591849906,
+                            "symbol": "SUSHI",
+                            "usd_value": 18563.525983741045
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 1030234.1480625432,
+                    "deposit_user_count": 1501,
+                    "deposit_valuable_user_count": 124,
+                    "id": "9b72515611b3e3eb4502000e77220c7e",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:0",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x8dc6efd57a13b7ba3ff7824c9708db24d3190703",
+                "id": "0x8dc6efd57a13b7ba3ff7824c9708db24d3190703",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 146.3531366695318,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.5001319769855864,
+                            "symbol": "ETH",
+                            "usd_value": 493603.7605139632
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 11055779.593651606,
+                            "chain_id": "arb",
+                            "id": "0x2e80259c9071b6176205ff5f5eb6f7ec8361b93f",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x2e80259c9071b6176205ff5f5eb6f7ec8361b93f/77b293a08cec65b6b0394296ae681c89.png",
+                            "price": 0.04462310846120489,
+                            "rate": 0.49986802301441363,
+                            "symbol": "HASH",
+                            "usd_value": 493343.2519306913
+                        }
+                    ],
+                    "deposit_usd_value": 986947.0124446545,
+                    "deposit_user_count": 7,
+                    "deposit_valuable_user_count": 3,
+                    "id": "deb569fd03e89816df207c7d15f5db61",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x8dc6efd57a13b7ba3ff7824c9708db24d3190703",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1680750789
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x25faa972bc761044e8cb0e88a8110a6984dcd6e1",
+                "id": "0x25faa972bc761044e8cb0e88a8110a6984dcd6e1",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 107.96709542849088,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.5001319769855863,
+                            "symbol": "ETH",
+                            "usd_value": 364139.5430807169
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 5340200.672547109,
+                            "chain_id": "arb",
+                            "id": "0xee9857de0e55d4a54d36a5a5a73a15e57435fdca",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xee9857de0e55d4a54d36a5a5a73a15e57435fdca/7abef660e7f34da12129c0cac852c2bc.png",
+                            "price": 0.0681523755318473,
+                            "rate": 0.49986802301441347,
+                            "symbol": "ODIN",
+                            "usd_value": 363947.3616508541
+                        }
+                    ],
+                    "deposit_usd_value": 728086.9047315712,
+                    "deposit_user_count": 3,
+                    "deposit_valuable_user_count": 1,
+                    "id": "8d529ee219d0207173192227842ba5be",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x25faa972bc761044e8cb0e88a8110a6984dcd6e1",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1676809255
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:5",
+                "index": "5",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 684837.5352759595,
+                            "id": "usdc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+                            "price": 1,
+                            "rate": 0.9988384115773825,
+                            "symbol": "USDC",
+                            "usd_value": 684837.5352759595
+                        },
+                        {
+                            "amount": 523.4370297962626,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.0011615884226170987,
+                            "symbol": "SUSHI",
+                            "usd_value": 796.4244697937852
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 685633.9597457536,
+                    "deposit_user_count": 22,
+                    "deposit_valuable_user_count": 13,
+                    "id": "01e5940667ce59aa9c914b035bec8cda",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:5",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:7",
+                "index": "7",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 31175.609219769172,
+                            "id": "chainlink",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/chainlink/ec9f53931b5e0ae59925b2cb3e593df5.png",
+                            "price": 19.57877754508653,
+                            "rate": 0.9994976237531914,
+                            "symbol": "LINK",
+                            "usd_value": 610380.3177464093
+                        },
+                        {
+                            "amount": 201.6358265816037,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.0005023762468089073,
+                            "symbol": "SUSHI",
+                            "usd_value": 306.7946995251576
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 610687.1124459343,
+                    "deposit_user_count": 8,
+                    "deposit_valuable_user_count": 5,
+                    "id": "5fc9a24efc4f03805d5dee8c8da08841",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:7",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0xc73d2191a1dd0a99b377272899a5569ed83f8cd8",
+                "id": "0xc73d2191a1dd0a99b377272899a5569ed83f8cd8",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 89.63755217941979,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.5011351471095711,
+                            "symbol": "ETH",
+                            "usd_value": 302319.6758600073
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 1023537.9643636176,
+                            "chain_id": "arb",
+                            "id": "0x07e49d5de43dda6162fa28d24d5935c151875283",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x07e49d5de43dda6162fa28d24d5935c151875283/0e2678de784eafbcee4c8a7adb43e934.png",
+                            "price": 0.29402922657277664,
+                            "rate": 0.4988648528904288,
+                            "symbol": "GOVI",
+                            "usd_value": 300950.07602970867
+                        }
+                    ],
+                    "deposit_usd_value": 603269.751889716,
+                    "deposit_user_count": 6,
+                    "deposit_valuable_user_count": 3,
+                    "id": "3a8fdf2ba25a831469d075f3f7db6bdf",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0xc73d2191a1dd0a99b377272899a5569ed83f8cd8",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1646582557
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0xcb0e5bfa72bbb4d16ab5aa0c60601c438f04b4ad",
+                "id": "0xcb0e5bfa72bbb4d16ab5aa0c60601c438f04b4ad",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 300186.4222684427,
+                            "id": "usdt",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png",
+                            "price": 1.000245,
+                            "rate": 0.5000311865991903,
+                            "symbol": "USDT",
+                            "usd_value": 300259.9679418985
+                        },
+                        {
+                            "amount": 89.01574527422565,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.49996881340080207,
+                            "symbol": "ETH",
+                            "usd_value": 300222.5139289281
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 600482.4818708312,
+                    "deposit_user_count": 3318,
+                    "deposit_valuable_user_count": 61,
+                    "id": "d7339df268fb3b0062c49680042f16c8",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0xcb0e5bfa72bbb4d16ab5aa0c60601c438f04b4ad",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630453514
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:11",
+                "index": "11",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 72.50404268522436,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.4353133279834717,
+                            "symbol": "ETH",
+                            "usd_value": 244533.65972402936
+                        },
+                        {
+                            "amount": 734.8494876189053,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.0019904068808513954,
+                            "symbol": "SUSHI",
+                            "usd_value": 1118.0945944594694
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 224544354.36735117,
+                            "chain_id": "arb",
+                            "id": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af/a1b1003790d9ee1463cacba03eecc1a6.png",
+                            "price": 0.0014076950251124035,
+                            "rate": 0.5626962651356769,
+                            "symbol": "SPELL",
+                            "usd_value": 316089.97055999684
+                        }
+                    ],
+                    "deposit_usd_value": 561741.7248784857,
+                    "deposit_user_count": 480,
+                    "deposit_valuable_user_count": 144,
+                    "id": "0415bd4f648369f498933e22368b1037",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:11",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x79dc8abe4f1157edfacf9875ecd3e17ae7056268",
+                "id": "0x79dc8abe4f1157edfacf9875ecd3e17ae7056268",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 82.38196698719881,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.49911282994634826,
+                            "symbol": "ETH",
+                            "usd_value": 277848.83623805555
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 73943828.80046019,
+                            "chain_id": "arb",
+                            "id": "0x30dcba0405004cf124045793e1933c798af9e66a",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x30dcba0405004cf124045793e1933c798af9e66a/fcb55d40032c7638d3c7eefab11868e4.png",
+                            "price": 0.0037709243628898633,
+                            "rate": 0.5008871700536516,
+                            "symbol": "YDF",
+                            "usd_value": 278836.58550901245
+                        }
+                    ],
+                    "deposit_usd_value": 556685.4217470681,
+                    "deposit_user_count": 7,
+                    "deposit_valuable_user_count": 3,
+                    "id": "0578100a2a75295907a11cbb3b5e9dce",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x79dc8abe4f1157edfacf9875ecd3e17ae7056268",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1666114700
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8",
+                "id": "0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 79.36240699207683,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.4876881416516042,
+                            "symbol": "ETH",
+                            "usd_value": 267664.7964381076
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 199744529.12886712,
+                            "chain_id": "arb",
+                            "id": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af/a1b1003790d9ee1463cacba03eecc1a6.png",
+                            "price": 0.0014076950251124035,
+                            "rate": 0.5123118583483952,
+                            "symbol": "SPELL",
+                            "usd_value": 281179.3799481258
+                        }
+                    ],
+                    "deposit_usd_value": 548844.1763862338,
+                    "deposit_user_count": 476,
+                    "deposit_valuable_user_count": 32,
+                    "id": "61c75053105fdd5e63a6869828e1dd67",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1631744483
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0xb45a382e6c50c71376fc54f902eb6c4c57436b68",
+                "id": "0xb45a382e6c50c71376fc54f902eb6c4c57436b68",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 74.02916948678865,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.5008439416936631,
+                            "symbol": "ETH",
+                            "usd_value": 249677.4396363972
+                        }
+                    ],
+                    "deposit_top_tokens": [
+                        {
+                            "amount": 4511084.029929798,
+                            "chain_id": "arb",
+                            "id": "0xccd05a0fcfc1380e9da27862adb2198e58e0d66f",
+                            "logo_url": "https://static.debank.com/image/arb_token/logo_url/0xccd05a0fcfc1380e9da27862adb2198e58e0d66f/1e231551bc9286c5cfa34548f73ec49a.png",
+                            "price": 0.0551610223663275,
+                            "rate": 0.49915605830633675,
+                            "symbol": "ANIMA",
+                            "usd_value": 248836.0070713404
+                        }
+                    ],
+                    "deposit_usd_value": 498513.4467077377,
+                    "deposit_user_count": 50,
+                    "deposit_valuable_user_count": 43,
+                    "id": "ae5165ebe1d9f86ceff01999bd00f18c",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0xb45a382e6c50c71376fc54f902eb6c4c57436b68",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1697420626
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x515e252b2b5c22b4b2b6df66c2ebeea871aa4d69",
+                "id": "0x515e252b2b5c22b4b2b6df66c2ebeea871aa4d69",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 3.7651095511131447,
+                            "id": "wbtc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/wbtc/6093319ef8f19931d7c2f94b817f53ea.png",
+                            "price": 61146.4,
+                            "rate": 0.5001893243662006,
+                            "symbol": "WBTC",
+                            "usd_value": 230222.8946561848
+                        },
+                        {
+                            "amount": 68.2092375620311,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.49981067563379994,
+                            "symbol": "ETH",
+                            "usd_value": 230048.6134330867
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 460271.50808927126,
+                    "deposit_user_count": 710,
+                    "deposit_valuable_user_count": 64,
+                    "id": "47c4fbcb5ec6c3a57210a2f71766b1a4",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x515e252b2b5c22b4b2b6df66c2ebeea871aa4d69",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630455240
+            },
+            {
+                "adapter_id": "uniswap2_liquidity",
+                "chain": "arb",
+                "controller": "0x113e30e1999b1a9241a125e67e14935c2bbef54d",
+                "id": "0x113e30e1999b1a9241a125e67e14935c2bbef54d",
+                "index": null,
+                "name": "Liquidity Pool",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 135.4656215921144,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 1,
+                            "symbol": "ETH",
+                            "usd_value": 456883.54728750826
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 456883.54728750826,
+                    "deposit_user_count": 1,
+                    "deposit_valuable_user_count": 1,
+                    "id": "b26e7d5b5a1edde00339abc4c928eaaf",
+                    "name": "Liquidity Pool",
+                    "pool_id": "0x113e30e1999b1a9241a125e67e14935c2bbef54d",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1677896907
+            },
+            {
+                "adapter_id": "sushiswap_farming2",
+                "chain": "arb",
+                "controller": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3",
+                "id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:3",
+                "index": "3",
+                "name": "Farming",
+                "project_id": "arb_sushiswap",
+                "stats": {
+                    "chain_id": "arb",
+                    "deposit_top_coins": [
+                        {
+                            "amount": 3.4452508307017142,
+                            "id": "wbtc",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/wbtc/6093319ef8f19931d7c2f94b817f53ea.png",
+                            "price": 61146.4,
+                            "rate": 0.49614313293410794,
+                            "symbol": "WBTC",
+                            "usd_value": 210664.6853944193
+                        },
+                        {
+                            "amount": 62.08778760657967,
+                            "id": "eth",
+                            "logo_url": "https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png",
+                            "price": 3372.69,
+                            "rate": 0.4931713685242837,
+                            "symbol": "ETH",
+                            "usd_value": 209402.8603828352
+                        },
+                        {
+                            "amount": 2981.9433707256144,
+                            "id": "sushi",
+                            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2/930cd4a36e687eaeddbcf9f3fd22d023.png",
+                            "price": 1.5215287120664305,
+                            "rate": 0.010685498541608954,
+                            "symbol": "SUSHI",
+                            "usd_value": 4537.112456315174
+                        }
+                    ],
+                    "deposit_top_tokens": [],
+                    "deposit_usd_value": 424604.6582335694,
+                    "deposit_user_count": 163,
+                    "deposit_valuable_user_count": 44,
+                    "id": "b1e6fba35dfae4eb40522d7c165a0dd1",
+                    "name": "Farming",
+                    "pool_id": "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3:3",
+                    "protocol_id": "arb_sushiswap"
+                },
+                "time_at": 1630379092
+            }
+        ],
+        "total_count": 20971
+    },
+    "error_code": 0
+}

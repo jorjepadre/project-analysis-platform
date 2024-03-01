@@ -14,6 +14,7 @@
     "@planetscale/database": "^1.16.0",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.29.4",
+    "lodash": "^4.17.21",
     "mysql2": "^3.9.2",
     "next": "14.1.0",
     "playwright": "^1.42.0",
@@ -21,6 +22,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
