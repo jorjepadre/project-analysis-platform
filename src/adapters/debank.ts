@@ -93,7 +93,9 @@ class DeBankAdapter {
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  const data = await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
+  // const data = await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
+  const data = await adapter.getProtocols();
+  await writeFile('.out/protocols.json', JSON.stringify(data, null, 4));
   await adapter.destroy();
 }
 

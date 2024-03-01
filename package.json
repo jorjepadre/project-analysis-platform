@@ -7,11 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preinstall": "pnpm exec playwright install"
+    "preinstall": "pnpm exec playwright install",
+    "db:push": "drizzle-kit push:mysql --config=drizzle.config.ts"
   },
   "dependencies": {
     "@planetscale/database": "^1.16.0",
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.29.4",
+    "mysql2": "^3.9.2",
     "next": "14.1.0",
     "playwright": "^1.42.0",
     "react": "^18",
