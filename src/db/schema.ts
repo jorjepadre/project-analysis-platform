@@ -19,8 +19,9 @@ export const debankPools = mysqlTable(
     controller: varchar('controller', { length: 255 }).notNull(),
     index: int('index'),
     projectId: varchar('project_id', { length: 255 }).notNull(),
-    adapterId: varchar('adapter_id', { length: 255 }).notNull(),
-    // .references(() => debankProtocols.id),
+    adapterId: varchar('adapter_id', { length: 255 })
+      .notNull()
+      .references(() => debankProtocols.id),
     investmentType: varchar('investment_type', { length: 255 }).notNull(),
   },
   (table) => ({

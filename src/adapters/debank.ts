@@ -108,23 +108,26 @@ class DeBankAdapter {
   }
 
   async getUserProfile(address: string, refresh = false) {
-    const responses: string[] = [];
+    const responses: any[] = [];
     const page = await this.browser.newPage();
     page.on('response', async (response) => {
       const isRelevant = response.url().startsWith('https://api.debank.com/portfolio/');
       if (!isRelevant) return;
 
       try {
-        responses.push(JSON.stringify(JSON.parse(await response.text())));
-        console.debug(response.url());
+        const url = response.url();
+        if (url.includes('apeswap')) {
+          console.log(url, await response.text());
+        }
+        responses.push(JSON.parse(await response.text()));
       } catch (e) {
-        console.warn(e);
+        console.warn(response.url(), await response.text());
       }
     });
     const portfolioLoadPromise = page.waitForResponse('https://festats.debank.com/mainsite/portfolioLoadTime*');
     await page.goto(`https://debank.com/profile/${address}`);
     await portfolioLoadPromise;
-    await writeFile('.out/responses.json', JSON.stringify(JSON.parse(responses.toString()), null, 4));
+    await writeFile('.out/responses.json', JSON.stringify(responses, null, 4));
 
     if (!refresh) return;
 
@@ -132,7 +135,7 @@ class DeBankAdapter {
     const refreshButton = page.locator('span[class^=UpdateButton_refresh] > svg');
     await refreshButton.click();
     await realtimeLoadPromise;
-    await writeFile('.out/all_responses.txt', responses.toString());
+    // await writeFile('.out/all_responses.txt', responses.toString());
   }
 
   clearCache() {}
@@ -140,9 +143,9 @@ class DeBankAdapter {
 
 async function main() {
   const adapter = await DeBankAdapter.init();
-  // const data = await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
-  const data = await adapter.getPools('arb_sushiswap');
-  await writeFile('.out/pools.json', JSON.stringify(data, null, 4));
+  await adapter.getUserProfile('0x91238f5962b16d61c9d10f233496eb15c3746fd8', true);
+  // const data = await adapter.getPools('arb_sushiswap');
+  // await writeFile('.out/pools.json', JSON.stringify(data, null, 4));
   await adapter.destroy();
 }
 
